@@ -1,0 +1,311 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/topview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nan1"
+            android:padding="10dp"
+            android:text="@string/hotels"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:id="@+id/firstLayout1112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/firstLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/_2"
+
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/image11"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginTop="250dp"
+                    android:text="@string/tolip_hotel"
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/firstLayout111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:orientation="horizontal"
+
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nan1"
+            android:paddingEnd="30dp"
+            android:text="@string/very"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/reunddown"
+            android:text="@string/Anight980EGP"
+            android:textColor="@color/white"
+
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:id="@+id/firstLayout111224"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/firstLayout11234"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/_3"
+
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/image1134"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginTop="250dp"
+                    android:text="@string/tolip_hotel1"
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/firstLayout11134"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:orientation="horizontal"
+
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/very1"
+            android:paddingEnd="30dp"
+            android:textAlignment="center"
+            android:background="@color/nan1"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/reunddown"
+            android:text="@string/Anight980EGP1"
+            android:textColor="@color/white"
+
+            android:textSize="25dp" />
+        <LinearLayout
+            android:id="@+id/firstLayout1114"
+            android:layout_width="match_parent"
+            android:layout_height="327dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/firstLayout134"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/_4"
+
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/image11345"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginTop="250dp"
+                    android:text="@string/tolip_hotel2"
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/firstLayout11534"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:orientation="horizontal"
+
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/star1"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/very2"
+            android:paddingEnd="30dp"
+            android:textAlignment="center"
+            android:background="@color/nan1"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/reunddown"
+            android:text="@string/Anight980EGP2"
+            android:textColor="@color/white"
+
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
