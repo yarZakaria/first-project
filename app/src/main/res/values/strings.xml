@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application44</string>
+    <string name="Destination" >Hotel or destination</string>
+    <string name="room" >How many rooms?</string>
+    <string name="adult" >How many adults?</string>
+    <string name="childern">How many kids?</string>
+    <string name="checkIn">Check in date:</string>
+    <string name="checkOut">Check out date:</string>
+    <string name="num1">1</string>
+    <string name="num2">1</string>
+    <string name="num3">1</string>
+    <string name="jan_10_2022">JAN 10 2022</string>
+    <string name="jan_01_2022">JAN 01 2022</string>
+    <string name="sub">-</string>
+    <string name="add">+</string>
+    <string name="subb">-</string>
+    <string name="addd">+</string>
+    <string name="minus">-</string>
+    <string name="a">+</string>
+    <string name="cancle">Cancle</string>
+    <string name="apply">Apply</string>
+    <string name="sancle">cancle</string>
+    <string name="jan">JAN</string>
+    <string name="day">01</string>
+    <string name="year">2022</string>
+    <string name="jan1">JAN</string>
+    <string name="month1">10</string>
+    <string name="year1">2022</string>
+
+</resources>
